@@ -1,0 +1,6 @@
+# Google search manual test (needs to be automated)
+# Launch the Chrome browser
+# open the google.com page
+# search for 'ai' and hit enter
+# save the search result > About 10,890,000,000 results (0.66 seconds)
+# close the browser
