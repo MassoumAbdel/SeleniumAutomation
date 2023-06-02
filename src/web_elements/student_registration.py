@@ -88,3 +88,6 @@ print(" ************* Complete, closing the browser ************ ")
 driver.close() # close the current tab
 # driver.quit() # close the browser
 
+
+
+
