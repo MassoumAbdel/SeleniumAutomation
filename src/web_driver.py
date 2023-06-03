@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 # test data
 host = "https://demoqa.com/browser-windows"
 temp_host = "https://demoqa.com/automation-practice-form"
+expected_tab2_msg = "This is a sample page"
+
 
 # created the object for chromedriver that talks to Chrome Browser
 chr_options = Options()
@@ -45,8 +47,8 @@ driver.refresh()
 time.sleep(2)
 
 print("# get current_url, title")
-first_url = driver.current_url
-print(f"Title : {driver.title}\nFirst Page URL: {first_url}")
+tab1_url = driver.current_url
+print(f"Title : {driver.title}\nFirst Page URL: {tab1_url}")
 time.sleep(5)
 
 print("# get current_window_handle and save in a variable")
@@ -67,21 +69,37 @@ tab2_handle = handles[1]
 assert handles[0] == tab1_handle, "Error: tab1 handle verification failed."
 # assert handles[0] == tab1_handle + "11", "Error: tab1 handle verification failed."
 # assert add(3,5) == 8
+
 print("# switch to new tab")
+driver.switch_to.window(tab2_handle)
 
 print("# get the current_url and title")
+tab2_url = driver.current_url
+print(f"Tab2 Title: {driver.title}\nTab2 URL: {tab2_url}.")
 
 print("# verify that url is different from first url")
+print(f" tab2 url verification : {tab2_url != tab1_url}")
+assert tab2_url != tab1_url, "ERROR: new tab URL verification failed."
+print(" Verify the text displayed.")
+tab2_msg_element = driver.find_element(By.XPATH, "//h1[@id='sampleHeading']")
+print(f" tab2 message (text) verification : {tab2_msg_element.text == expected_tab2_msg}")
+assert tab2_msg_element.text == expected_tab2_msg, "ERROR: new tab message verification failed."
+
+print(f" tab2 message (text) visibility verification (is_displayed): {tab2_msg_element.is_displayed()}")
+assert tab2_msg_element.is_displayed(), "ERROR: new tab message visibility verification failed."
 
 print("# close the tab with driver.close()")
+driver.close()
 
 print("# switch to main tab")
+driver.switch_to.window(tab1_handle)
+time.sleep(5)
 
 print("# get current_url and verify that it is the same as first url")
+print(f"URL after switching to first tab: {driver.current_url}")
 
 print("# close the browser (all tabs) -> driver.quit()")
 driver.quit()
-print(" ------------------  ")
 
 
 
