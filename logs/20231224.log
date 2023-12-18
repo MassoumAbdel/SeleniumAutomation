@@ -1,0 +1,45 @@
+2023-12-24 19:58:29,161 [INFO]: *********  Student Registration form - Automated steps  ************
+2023-12-24 19:58:29,161 [INFO]: # Launch the Chrome browser
+2023-12-24 19:58:29,162 [WARNING]: this was the warning message ...
+2023-12-24 19:58:29,162 [ERROR]: test case failed!!!   ------ just kidding..
+2023-12-24 19:58:38,185 [INFO]: maximizing the browser window
+2023-12-24 19:58:38,187 [INFO]:  1 - open the student registration form
+2023-12-24 19:59:22,026 [INFO]:  2 - Enter name ...
+2023-12-24 19:59:22,027 [INFO]: entering the text by ID ..
+2023-12-24 19:59:22,027 [INFO]:  ************* Complete, closing the browser ************ 
+2023-12-24 20:02:38,285 [INFO]: *********  Student Registration form - Automated steps  ************
+2023-12-24 20:02:38,285 [INFO]: # Launch the Chrome browser
+2023-12-24 20:02:38,285 [WARNING]: this was the warning message ...
+2023-12-24 20:02:38,285 [ERROR]: test case failed!!!   ------ just kidding..
+2023-12-24 20:02:46,200 [INFO]: maximizing the browser window
+2023-12-24 20:02:46,203 [INFO]:  1 - open the student registration form
+2023-12-24 20:03:37,654 [INFO]:  2 - Enter name ...
+2023-12-24 20:03:37,655 [INFO]: entering the text by ID ..
+2023-12-24 20:03:37,655 [INFO]:  ************* Complete, closing the browser ************ 
+2023-12-24 20:15:55,953 [INFO]: *********  Student Registration form - Automated steps  ************
+2023-12-24 20:15:55,953 [INFO]: # Launch the Chrome browser
+2023-12-24 20:15:55,953 [WARNING]: this was the warning message ...
+2023-12-24 20:15:55,953 [ERROR]: test case failed!!!   ------ just kidding..
+2023-12-24 20:16:03,947 [INFO]: maximizing the browser window
+2023-12-24 20:16:03,950 [INFO]:  1 - open the student registration form
+2023-12-24 20:17:04,165 [INFO]:  2 - Enter name ...
+2023-12-24 20:17:04,165 [INFO]: entering the text by ID ..
+2023-12-24 20:17:04,165 [INFO]:  ************* Complete, closing the browser ************ 
+2023-12-24 20:20:44,763 [INFO]: *********  Student Registration form - Automated steps  ************
+2023-12-24 20:20:44,763 [INFO]: # Launch the Chrome browser
+2023-12-24 20:20:44,763 [WARNING]: this was the warning message ...
+2023-12-24 20:20:44,763 [ERROR]: test case failed!!!   ------ just kidding..
+2023-12-24 20:20:52,978 [INFO]: maximizing the browser window
+2023-12-24 20:20:52,982 [INFO]:  1 - open the student registration form
+2023-12-24 20:21:44,833 [INFO]:  2 - Enter name ...
+2023-12-24 20:21:44,834 [INFO]: entering the text by ID ..
+2023-12-24 20:21:44,834 [INFO]:  ************* Complete, closing the browser ************ 
+2023-12-24 20:39:40,631 [INFO]: *********  Student Registration form - Automated steps  ************
+2023-12-24 20:39:40,631 [INFO]: # Launch the Chrome browser
+2023-12-24 20:39:40,631 [WARNING]: this was the warning message ...
+2023-12-24 20:39:40,631 [ERROR]: test case failed!!!   ------ just kidding..
+2023-12-24 20:39:49,318 [INFO]: maximizing the browser window
+2023-12-24 20:39:49,321 [INFO]:  1 - open the student registration form
+2023-12-24 20:40:33,942 [INFO]:  2 - Enter name ...
+2023-12-24 20:40:33,943 [INFO]: entering the text by ID ..
+2023-12-24 20:40:33,944 [INFO]:  ************* Complete, closing the browser ************ 

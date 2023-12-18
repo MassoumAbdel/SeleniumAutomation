@@ -1,0 +1,7 @@
+2023-12-21 20:16:09,252 [INFO]: *********  Student Registration form - Automated steps  ************
+2023-12-21 20:16:09,253 [INFO]: # Launch the Chrome browser
+2023-12-21 20:16:09,253 [WARNING]: this was the warning message ...
+2023-12-21 20:16:09,253 [ERROR]: test case failed!!!   ------ just kidding..
+2023-12-21 20:16:18,295 [INFO]: maximizing the browser window
+2023-12-21 20:16:18,299 [INFO]:  1 - open the student registration form
+2023-12-21 20:16:56,438 [INFO]:  2 - Enter name ...

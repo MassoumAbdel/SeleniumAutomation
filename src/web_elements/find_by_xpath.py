@@ -6,6 +6,10 @@ from selenium.webdriver import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
+# Automation Test Steps:
+print(" # Google search manual test (needs to be automated)")
+print(" # Launch the chrome browser")
+
 # created the object for chromedriver that talks to chrome browser
 chr_options = Options()
 chr_options.add_experimental_option("detach", True)
