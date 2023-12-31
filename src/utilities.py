@@ -1,7 +1,6 @@
 import logging
 import time
 from os.path import abspath, dirname
-
 import yaml
 from selenium.webdriver.common.by import By
 
@@ -9,7 +8,6 @@ from selenium.webdriver.common.by import By
 # abspath(__file__) -> C:\dev\SeleniumAutomation\src\utilities.py
 # dirname(abspath(__file__)) -> C:\dev\SeleniumAutomation\src\
 ROOT_DIR = dirname(dirname(abspath(__file__)))  # C:\dev\SeleniumAutomation\
-
 
 def disable_google_ads(driver):
     google_ads_iframe_xpath = "//iframe[contains(@id, 'google_ads_iframe_')]"
